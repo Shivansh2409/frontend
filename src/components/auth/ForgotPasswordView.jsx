@@ -38,10 +38,10 @@ const ForgotPasswordView = ({
           </form>
         </div>
 
-        <div className="mt-auto text-center pb-2">
+        <div className="mt-auto text-center pb-2 ">
           <button
             onClick={handleBackToSignIn}
-            className="text-gray-600 font-medium hover:text-gray-900 transition-colors"
+            className="text-gray-600 font-medium hover:text-gray-900 transition-colors mt-6"
           >
             Back to Sign in
           </button>
