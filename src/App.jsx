@@ -130,15 +130,10 @@ const App = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col font-sans text-gray-800">
-      {/* Top Page Label */}
-      <div className="w-full max-w-7xl mx-auto px-6 py-4">
-        <span className="text-gray-400 text-sm">Registration Page</span>
-      </div>
-
       {/* Main Content Area */}
+      <Logo className="mb-8 mt-4 ml-4" />
       <div className="flex-grow flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8 pb-12">
         {/* Logo - Positioned outside/above the card */}
-        <Logo className="mb-8" />
 
         {/* Main Card / Container */}
         {renderCurrentView()}
